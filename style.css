@@ -1,3 +1,19 @@
+.admin-avatar {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 50%;
+  background: #222; /* biar keliatan kalau kosong */
+}
+
+.admin-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* ===== BASE & FONT ===== */
 :root {
   --bg: #0a0a0a;
